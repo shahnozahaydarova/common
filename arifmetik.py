@@ -1,0 +1,8 @@
+c = int(input("1-son: "))
+x = int(input("1-son: "))
+print("Kiritgan sonlaringizning yig'indisi: ",c+x)
+print("Kiritgan sonlaringizning ayirmasi: ",c-x)
+print("Kiritgan sonlaringizning ko'paytmasi: ",c*x)
+print("Kiritgan sonlaringizning bo'linmasi: ",c/x)
+print("1-sonni 2-songa bo'lgandagi butun qism: ",c//x)
+print("1-sonni 2-songa bo'lgandagi qoldiq: ",c%x)
