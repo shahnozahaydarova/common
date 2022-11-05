@@ -63,6 +63,7 @@ if q.lower() == 'uz':
                                             ''')
             if t == '1':
                 print("Siz pyton OOP darsini tanladingiz.Siz bu yerda classlarning yozilishini 3 xil ko'rinishini ko'rishingiz mumkin.")
+                import oop
         elif e.lower() == '4':
             print("Siz python MySQL bo'limini tanladingiz.Tez orada bu bo'limga ma'lumot joylanadi.")
         elif e.lower() == '5':
@@ -78,4 +79,4 @@ if q.lower() == 'uz':
     else:
         print("Siz kiritgan dasturlash tili haqida bizda ma'lumot yetarli emas.")                   
 else:
-    print("Siz kiritgan til bizda mavjud emas.")    
+    print("Mavjud bo'lmagan buyruqni tanladingiz.")    
