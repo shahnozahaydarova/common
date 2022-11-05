@@ -16,6 +16,8 @@ if q.lower() == 'uz':
                     1 == Python dasturlash tili haqida ma'lumot:
                     2 == Python beginner darslari(BASIC):
                     3 == Python intermediate darslari(OOP):
+                    4 == MySQL:
+                    5 == Django:
                                                         ''') 
         if e.lower() == '1':
             print("Siz bu yerda python dasturlash tili haqida ma'lumotga ega bo'lishingiz mumkin.Python dasturlash tili sodda va o'qilishi oddiy bo'lgan dasturlash tili bo'lib u inglizcha so'zlarni qo'llab quvvatlaydi kalit so'zlar o'rnida shuning uchun bu boshqacha ko'rinishga ega")
@@ -43,13 +45,13 @@ if q.lower() == 'uz':
                 import takrorlanish   #xato borrrrrrrrrr
             elif r == '5':
                 print("Siz bu yerda Pythonda Listlar mavzusida tayyorlangan,shart operatorlari bilan birga kiritilgan dugonalar haqidagi dasturni ko'rishingiz mumkin.")
-                import list
+                import listе
             elif r == '6':
                 print("Siz bu yerda Pythonda funksiya mavzusi orqali tayyorlangan tug'ilgan yilingiz va maktabni tugatgan yilingizni kiritganda yoshingiz va maktab tugatganingizga necha yil bo'lganini chiqarib beruvchi dasturni ko'rishingiz mumkin.")
                 import funksiya
             elif r =='7':
                 print("Siz bu yerda Pythonda Exception mavzusi bo'yicha tayyorlangan dasturni ko'rishingiz mumkin.")
-                import exseption
+                import exception
         elif e.lower() == '3':
             t = input('''Siz python intermediate darslari bo'limini tanladingiz.Sizga Intermediate darslardan qaysi mavzusida kiritilgan dastur kerak.
                 1-dars -- OOP
@@ -59,6 +61,14 @@ if q.lower() == 'uz':
                 5-dars -- Import
                 6-dars -- Threading
                                             ''')
+            if t == '1':
+                print("Siz pyton OOP darsini tanladingiz.Siz bu yerda classlarning yozilishini 3 xil ko'rinishini ko'rishingiz mumkin.")
+        elif e.lower() == '4':
+            print("Siz python MySQL bo'limini tanladingiz.Tez orada bu bo'limga ma'lumot joylanadi.")
+        elif e.lower() == '5':
+            print("Siz python Django bo'limini tanladingiz.Tez orada bu bo'limga ma'lumot joylanadi.")
+        else:
+            print("Mavjud bo'lmagan bo'limni tanladingiz.")
     elif w.lower() == 'javascript':
         print("Siz Java Script dasurlash tilini tanladingiz .Bizda hozircha Java Script dasturlash tili haqida ma'lumot kiritilmagan.Kutishingizni iltimos qilamiz va tez orada sizga javob qaytaramiz.")                     
     elif w.lower() == 'php':
