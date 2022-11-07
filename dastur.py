@@ -53,7 +53,7 @@ if q.lower() == 'uz':
                 print("Siz bu yerda Pythonda Exception mavzusi bo'yicha tayyorlangan dasturni ko'rishingiz mumkin.")
                 import exception
         elif e.lower() == '3':
-            t = input('''Siz python intermediate darslari bo'limini tanladingiz.Sizga Intermediate darslardan qaysi mavzusida kiritilgan dastur kerak.
+            t = input('''Siz python intermediate bo'limini tanladingiz.Sizga Intermediate darslardan qaysi mavzusida kiritilgan dastur kerak.
                 1-dars -- OOP
                 2-dars -- Inhertiance
                 3-dars -- Tuple
@@ -62,8 +62,11 @@ if q.lower() == 'uz':
                 6-dars -- Threading
                                             ''')
             if t == '1':
-                print("Siz pyton OOP darsini tanladingiz.Siz bu yerda classlarning yozilishini 3 xil ko'rinishini ko'rishingiz mumkin.")
+                print("Siz bu yerda classlarning yozilishini 3 xil ko'rinishini ko'rishingiz mumkin.")
                 import oop
+            elif t== '2':
+                print("Siz bu yerda MaishiyTexnika va Mebel clasi asosida yaratilgan inheritance classlarni ko'rishingiz mumkin. ")
+                import inhertiance
         elif e.lower() == '4':
             print("Siz python MySQL bo'limini tanladingiz.Tez orada bu bo'limga ma'lumot joylanadi.")
         elif e.lower() == '5':
