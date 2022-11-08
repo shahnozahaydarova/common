@@ -50,14 +50,14 @@ if q.lower() == 'uz':
                 print("Siz bu yerda Pythonda funksiya mavzusi orqali tayyorlangan tug'ilgan yilingiz va maktabni tugatgan yilingizni kiritganda yoshingiz va maktab tugatganingizga necha yil bo'lganini chiqarib beruvchi dasturni ko'rishingiz mumkin.")
                 import funksiya
             elif r =='7':
-                print("Siz bu yerda Pythonda Exception mavzusi bo'yicha tayyorlangan dasturni ko'rishingiz mumkin.")
+                print("Siz bu yerda Pythonda Exception mavzusi bo'yicha tayyorlangan 2ta sonni bir-biriga bo'lganda kelib chiadiganxatoliklarni ko'rishingiz mumkin.")
                 import exception
         elif e.lower() == '3':
             t = input('''Siz python intermediate bo'limini tanladingiz.Sizga Intermediate darslardan qaysi mavzusida kiritilgan dastur kerak.
                 1-dars -- OOP
                 2-dars -- Inhertiance
                 3-dars -- Tuple
-                4-dars -- Dictonries
+                4-dars -- Dictonaries
                 5-dars -- Import
                 6-dars -- Threading
                                             ''')
@@ -67,6 +67,18 @@ if q.lower() == 'uz':
             elif t== '2':
                 print("Siz bu yerda MaishiyTexnika va Mebel clasi asosida yaratilgan inheritance classlarni ko'rishingiz mumkin. ")
                 import inhertiance
+            elif t == '3':
+                print("Siz bu yerda kompaniya tomonidan tashkil etilgan marosimda kompaniya a'zolarining qaysilari ishtirok etishini ko'rishingiz mumkin.")
+                import tuple
+            elif t == '4':
+                print("Siz bu yerda dictionaries mavzusi aosida tuzilgan kalkulatorni ko'rishingiz mumkin.")
+                import dictionaries
+            elif t == '5':
+                print("Siz bu yerda import time kutubxonasining funksiyalarida tuzilgan dasturni ko'rishingiz mumkin.")
+                import importt
+            elif t == '6':
+                print("Siz bu yerda Threading mavzusida tayyorlangan dasturni ko'rishingiz mumkin.")
+                import sriding
         elif e.lower() == '4':
             print("Siz python MySQL bo'limini tanladingiz.Tez orada bu bo'limga ma'lumot joylanadi.")
         elif e.lower() == '5':
