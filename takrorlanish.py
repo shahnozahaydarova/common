@@ -1,31 +1,34 @@
-l = int(input("l sonni kiriting: "))
-k = int(input("k sonni kiriting: "))
-j = 0
-# while l < k:
-#     l += 1
-#     print(l)
-# while l > k:
-#     k += 1
-#     print(k)
-# for x in range(l,k):
+a = int(input("1-sonni kiriting: "))
+b = int(input("2-sonni kiriting: "))
+c = 0
+
+# print("Whileda birinchi va ikkinchi sonlar orasigadi sonlarni chiqarish.")
+# while a < b:
+#     a += 1
+#     print(a)
+# while a > b:
+#     b += 1
+#     print(b)
+# print("Forda birinchi va ikkinchi sonlar orasigadi sonlarni chiqarish.")
+# for x in range(a,b):
 #     print(x)
-# for x in range(k,l):
+# for x in range(b,a):
 #     print(x)
 
 
-while l < k:
-    l += 1
-    j += l
-print("Yig'indi whileda hisoblandi va u",j,"ga teng.")
 
-while k < l:
-    k += 1
-    j += k
-print("Yig'indi whileda hisoblandi va u",j,"ga teng.")
+while a < b:
+    a += 1
+    c += a
+while b < a:
+    b += 1
+    c += b
+print("Yig'indi whileda hisoblandi va u",c,"ga teng.")
 
-for x in range(l,k):
-    j += x
-    print("Yig'indi forda hisoblandi va u",j,"ga teng.")
-for x in range(k,l):
-    j += x
-    print("Yig'indi forda hisoblandi va u",j,"ga teng.")
+
+
+for x in range(a,b):
+    c += x
+for x in range(b,a):
+    c += x
+print("Yig'indi forda hisoblandi va u "+str(c)+"ga teng.")

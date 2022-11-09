@@ -4,23 +4,23 @@ a = input('''Sizga qaysi turdagi mahsulot kerak:
                                               ''')
 
 if a == '1':
-    b = input(('''Mebellar olamiga xush kelibsiz.Sizga qaysi turdagi mebellar kerak:
-                        mexmonxona
-                        oshxona
-                                        '''))
+    b = input('''Mebellar olamiga xush kelibsiz.Sizga qaysi turdagi mebellar kerak:
+                        1==mexmonxona
+                        2==oshxona
+                                        ''')
     class Mebel:
         def __init(self,tur):
-            self.tur==tur
+            self.tur = tur
         def __str(self):
             return f"self.tur"
 
     
-    if b == 'mexmonxona':    
+    if b == '1':    
         class Mehmonxona(Mebel):
             def __init(self,tur,rang, narx):
                 super().__init__(tur)
-                self.rang==rang
-                self.narx==narx
+                self.rang = rang
+                self.narx = narx
             def __str(self):
                 return f"Turi: {self.tur},Rangi:{self.rang},Narxi:{self.narx}"
         mm1 = Mehmonxona("Mehmonxona","oq","1200$")

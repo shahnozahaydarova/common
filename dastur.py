@@ -4,7 +4,6 @@ q = input('''Виберыту язику:
             Uz
                         ''')
 if q.lower() == 'uz':
-    print("ghdjkgnbk")
     w = input('''Siz o'zbek tilini tanladingiz.Sizga qaysi dasturlash tili haqida ma'lumot kerak.
                 python
                 javascript
@@ -33,7 +32,7 @@ if q.lower() == 'uz':
                                             ''')
             if r == '1':
                 print("Siz bu yerda Pythonda data type mavzusida tayyorlangan ishlarni  ko'rishingiz mumkin. ")
-                import data_type
+                from data_type import *
             elif r =='2':
                 print("Siz bu yerda pythonda arifmetik amallar mavzusida tayorlangan ishlarni ko'rishingiz mumkin. ")
                 import arifmetik
